@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.container .left-section{
+    display: inherit;
+    flex: 1;
+    background-color: #2C349F;
+    flex-direction: column;
+}
+
+
+.container .left-section .top-title{
+    color: white;
+    margin: 28px;
+}
+
+.left-section .hero-title{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: inherit;
+}
+
+.left-section .hero-title .hero{
+    width: 24rem;
+    margin-bottom: 24px;
+}
+
+.left-section .hero-title .title{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.container .right-section{
+    flex: 1;
+    background-color: whitesmoke;
+    display: inherit;
+    flex-direction: column;
+}
+
+
+.right-section .register-wraper {
+    text-align: end;
+}
+
+.right-section .register-wraper .btn-regis {
+    background-color: #2C349F;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 24px ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.right-section .register-wraper .btn-regis:hover {
+    opacity: 0.8;
+}
+
+.right-section .register-wraper .btn-regis:active {
+    transform: scale(98%);
+}
+
+.right-section .form-login{
+    display: inherit;
+    width: 20rem;
+    margin: 0 auto;
+    flex-direction: inherit;
+
+}
+
+.right-section .form-login .title-login{
+    margin-bottom: 12px;
+}
+
+.right-section .form-login input{
+    padding: 8px;
+    width: 19rem;
+    margin: 8px 0;
+}
+
+.right-section .form-login .text-forget{
+    display: block;
+    text-align: end;
+}
+
+.form-login .btn-login {
+    background-color: #2C349F;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    width: 20rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 0;
+    box-shadow: 0px 4px 10px  #999;
+
+}
+
+.form-login .btn-login:hover {
+    opacity: 0.8;
+}
+
+.form-login .btn-login:active {
+    transform: scale(98%);
+}
+
+.form-login .btn-google {
+    background-color: white;
+    color: #999;
+    border: none;
+    padding: 8px 12px;
+    width: 20rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px 0;
+    box-shadow: 0px 4px 10px  #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-google img{
+    width: 20px; 
+    margin: 0px 4px ;
+}
+
+.form-login .btn-google:hover {
+    opacity: 0.8;
+}
+
+.form-login .btn-google:active {
+    transform: scale(98%);
+}
+
+.divider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider hr{
+    width: 45%;
+    background-color: #999;
+    height: 1px;
+}
+
+
+
+
+
+
